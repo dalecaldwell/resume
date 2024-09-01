@@ -27,6 +27,10 @@ h1 {
     height: 90%;
 }
 
+#portfolio_img {
+    /* border: green solid 4px; */
+}
+
 #summary {
     color: azure;
     /* border: yellowgreen solid 4px; */
