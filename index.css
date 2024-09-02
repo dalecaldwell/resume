@@ -29,16 +29,26 @@ h1 {
     flex-direction: row;
 }
 
+#title {
+    width: 75%;
+    height: 100%;
+
+   
+}
+
 #portfolio_img {
     /* border: green solid 4px; */
     width: 300px;
     height: 300px;
+    align-items: flex-end;
     
 }
 
-#title {
-    align-items: flex-end;
+#portfolio_img > img {
+    border-radius: 50%;
 }
+
+
 
 #summary {
     color: azure;
