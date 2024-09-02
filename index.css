@@ -1,5 +1,6 @@
 body {
-    background-color: blue;
+    background-color: #9B3922;
+    color: azure;
 }
 
 h1 {
@@ -10,7 +11,7 @@ h1 {
 
 #container {
     /* border: yellowgreen; */
-    width: 75%;
+    width: 65%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -20,16 +21,29 @@ h1 {
 }
 
 #header {
-    text-align: center;
-    color: azure;
-    /* border: yellowgreen solid 4px; */
+    /* border: black solid 4px; */
     width: 100%;
-    height: 90%;
+    height: 400px;
+    text-align: center;
     display: flex;
     flex-direction: row;
 }
 
+#summary {
+    /* border: black solid 4px; */
+    width: 75%;
+    height: 700px;
+
+}
+
+#summary, #wccc_edu > h2 {
+    text-align: center;
+    font-style: italic;
+
+}
+
 #title {
+    
     width: 75%;
     height: 100%;
 
@@ -38,6 +52,8 @@ h1 {
 
 #portfolio_img {
     /* border: green solid 4px; */
+    margin-top: 40px;
+    margin-right: 150px;
     width: 300px;
     height: 300px;
     align-items: flex-end;
@@ -56,3 +72,27 @@ h1 {
     width: 100%;
     height: 90%;
 }
+
+#education {
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#wccc > img {
+    /* border: black solid 4px; */
+    border-radius: 15%;
+    
+}
+
+#wccc_edu {
+    /* border: black solid 4px; */
+    padding: 15px 50px 15px 50px;
+    align-items: center;
+    
+}
+
+
